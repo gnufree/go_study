@@ -1,0 +1,1 @@
+module "github.com/gnufree/gostudy/k8s-controller-custom-resource"

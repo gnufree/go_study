@@ -1,0 +1,16 @@
+<html>
+    <head>
+        <title>go web</title>
+    </head>
+    <body>
+        <div>
+            hello, {{.}} </div>
+           <div>name: {{.Name}}</div> 
+           <div>sex: {{.Sex}}</div> 
+           <div>age: {{.Age}}</div> 
+            {{with .Address}}
+            <div>省份: {{.Province}}</div> 
+            <div>城市: {{.City}}</div> 
+            {{end}}
+    </body>
+</html>
